@@ -1,0 +1,17 @@
+<div>
+  <p>hijo directo de div</p>
+  <p>hijo directo de div2</p>
+  <importante>
+    <p>clase importante</p>
+    <p>clase importante</p>
+  </importante>
+</div>
+
+.........................
+
+div > p {
+         border: 2px solid #fabada;
+}
+importante p + p {
+         color: rojo;
+}
